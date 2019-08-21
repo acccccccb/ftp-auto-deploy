@@ -28,8 +28,11 @@ let config = {
     password: "",// 密码
     host: "",//主机
     post:21,// 端口
-    remoteDir:'',//远程根目录
-    localDir:''
+    remoteDir:'/htdocs/dist',//远程根目录
+    localDir:'D:/dist',
+    includeFile:[],// 包含文件 ['.jpg','.png']
+    exculdFile:[], // 排除文件 ['.jpg','.png']
+    exculdDir:[], // 排除文件夹 ['/dist/','/dist/js/']
 };
 module.exports = {
     styles,config
