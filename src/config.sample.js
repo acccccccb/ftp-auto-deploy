@@ -27,7 +27,7 @@ let config = {
     user: "",// 用户名
     password: "",// 密码
     host: "",//主机
-    post:21,// 端口
+    port:21,// 端口
     remoteDir:'/htdocs/dist',//远程根目录
     localDir:'D:/dist',
     includeFile:[],// 包含文件 ['.jpg','.png']

@@ -1,11 +1,5 @@
-## ftp-auto-deploy
-> ftp上传插件
-##### 引入文件
-```
+'use strict';
 const ftpInit = require('../src/index.js');
-```
-##### 上传
-```
 ftpInit({
     user: "ftp",// 用户名
     password: "123456",// 密码
@@ -21,4 +15,3 @@ ftpInit({
     // do something
     res.upload();
 });
-```
