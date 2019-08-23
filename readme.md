@@ -57,5 +57,5 @@ npm run test
 |remoteDir|远程目录|String|是|-|
 |localDir|本地目录|String|是|-|
 |includeFile|包含文件后缀名,空则上传所有类型文件 eg:['.js']|Array|否|[]|
-|exculdFile|排除文件后缀名 eg:['.tmp']|Array|否|选择图片|
-|exculdDir|排除文件夹 eg:['/static/js/']|Array|否|选择图片|
+|exculdFile|排除文件后缀名 eg:['.tmp']|Array|否|[]|
+|exculdDir|排除文件夹 eg:['/static/js/']|Array|否|[]|
