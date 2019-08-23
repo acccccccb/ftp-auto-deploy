@@ -23,17 +23,6 @@ let styles = {
     'redBG'         : '\x1B[41m%s\x1B[49m:',
     'yellowBG'      : '\x1B[43m%s\x1B[49m:',
 };
-let config = {
-    user: "",// 用户名
-    password: "",// 密码
-    host: "",//主机
-    port:21,// 端口
-    remoteDir:'/htdocs/dist',//远程根目录
-    localDir:'D:/dist',
-    includeFile:[],// 包含文件 ['.jpg','.png']
-    exculdFile:[], // 排除文件 ['.jpg','.png']
-    exculdDir:[], // 排除文件夹 ['/dist/','/dist/js/']
-};
 module.exports = {
-    styles,config
+    styles
 };

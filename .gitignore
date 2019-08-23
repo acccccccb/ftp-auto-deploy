@@ -12,4 +12,4 @@ yarn-error.log*
 *.njsproj
 *.sln
 /.cache/
-/src/config.js
+/test/doNotUpload.js
