@@ -1,5 +1,19 @@
 ## ftp-auto-deploy
-> ftp上传插件
+> 使用环境：nodejs
+
+> 实现功能：ftp自动化部署
+
+#### 引用了以下modules
+- fs,
+- fs-extra,
+- promise-ftp,
+- readline-sync,
+- single-line-log
+
+##### 测试
+```$xslt
+npm run test
+```
 ##### 引入文件
 ```
 const ftpInit = require('../src/index.js');
