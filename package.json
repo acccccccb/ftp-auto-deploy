@@ -1,6 +1,6 @@
 {
   "name": "ftp-auto-deploy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Upload files to ftp server",
   "main": "src/index.js",
   "license": "MIT",
