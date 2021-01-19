@@ -1,5 +1,5 @@
 ## ftp-auto-deploy
-![avatar](http://www.ihtmlcss.com/wp-content/uploads/2019/08/ftp-auto-deploy.png)
+![avatar](https://ihtmlcss.oss-cn-chengdu.aliyuncs.com//2019/08/ftp-auto-deploy.png)
 
 > 实现功能：ftp自动化部署
 
